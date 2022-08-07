@@ -1,0 +1,86 @@
+/* =============== SKILLS STYLES =============== */
+#skills {
+    overflow-x: hidden;
+}
+
+.skills-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(10%);
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.skills {
+    width: 80%;
+    padding: 5rem 0;
+}
+
+.skill {
+    padding: 1.2rem 0;
+    width: 1%;
+    transition: 2s;
+}
+
+.skill-name {
+    font-size: 2rem;
+    display: inline;
+    white-space: nowrap;
+}
+
+.skill-percentage {
+    font-size: 1.45rem;
+    float: right;
+    opacity: 0;
+}
+
+.skill-bar {
+    background: linear-gradient(to right, #7474bf,var(--blue));
+    height: 1.6rem;
+    margin-top: 0.8rem;
+    border-radius: 1rem;
+}
+
+/* Skill bar widths */
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+/* =============== MEDIA QUERIES =============== */
+@media only screen and (max-width: 1200px) {
+    .skills {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .skills {
+        width: 95%;
+    }
+}
+
+

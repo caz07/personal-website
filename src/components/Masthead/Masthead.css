@@ -1,0 +1,153 @@
+/* =============== MASTHEAD STYLES =============== */
+.masthead {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-1, .intro-name, .border, .intro-2, .socials {
+    text-shadow: 3px 3px 5px black;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.intro-1 {
+    color: var(--gray);
+    font-size: 6.5rem;
+}
+
+.intro-name {
+    color: white;
+    font-size: 10.5rem;
+    font-weight: 500;
+    margin: 0.8rem 0;
+    animation-delay: 1s;
+}
+
+.border {
+    border-top: 1px solid var(--gray);
+    width: 100%;
+    animation-delay: 1s;
+}
+
+.intro-2 {
+    color: var(--gray);
+    font-size: 6.5rem;
+    margin: 2.5rem 0;
+    animation-delay: 2.5s;
+}
+
+.Typewriter {
+    display: inline;
+    color: var(--pink);
+}
+
+.socials {
+    display: flex;
+    margin-top: 5rem;
+    animation-delay: 4s;
+}
+
+.socials li {
+    margin: 0 1.5rem;
+}
+
+.social-icon {
+    font-size: 3.5rem;
+    color: var(--gray);
+}
+
+.down-icon-link {
+    font-size: 4.8rem;
+    position: absolute;
+    bottom: 2.4rem;
+    color: white;
+    opacity: 0;
+    animation: bounce 6s 5s infinite, fadeIn 1.5s ease-in-out 4s forwards;
+}
+
+.social-icon, .down-icon-link-inner {
+    transition: 250ms;
+}
+
+.social-icon:hover, .down-icon-link-inner:hover {
+    color: var(--blue);
+    transform: scale(1.1);
+}
+
+/* =============== ANIMATION =============== */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes bounce {
+    0%, 4%, 12%, 24%, 100% {transform: translateY(0);} 
+    8% {transform: translateY(-30px);} 
+    16% {transform: translateY(-15px);} 
+} 
+
+/* =============== MEDIA QUERIES =============== */
+@media only screen and (max-width: 1200px) {
+    .intro-1, .intro-2 {
+        font-size: 6rem;
+    }
+
+    .intro-name {
+        font-size: 10rem;
+    }
+
+    .socials {
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .intro-1, .intro-2 {
+        font-size: 5.5rem;
+    }
+
+    .intro-name {
+        font-size: 9.5rem;
+    }
+
+    .socials {
+        margin-top: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .intro-1, .intro-2 {
+        font-size: 4rem;
+    }
+
+    .intro-name {
+        font-size: 8rem;
+    }
+
+    .socials {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .intro-1, .intro-2 {
+        font-size: 3rem;
+    }
+
+    .intro-name {
+        font-size: 7rem;
+    }
+
+    .social-icon {
+        font-size: 3rem;
+    }
+}
