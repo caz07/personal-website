@@ -4,7 +4,7 @@ import './Logo.css';
 
 function Logo() {
     return (
-        <a href="/" class="logo-container">
+        <a href="/" className="logo-container">
             <div className="logo"></div>
         </a>
     )

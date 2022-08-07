@@ -27,7 +27,7 @@ const Education = React.forwardRef((props, ref) =>{
                             >
                                 <h3 className="vertical-timeline-element-title">University of California, Los Angeles</h3>
                                 <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA &#183; GPA: N/A</h4>
-                                <div class="vertical-timeline-element-border"></div>
+                                <div className="vertical-timeline-element-border"></div>
                                 <p>Majoring in computer science, expected graduation in 2026.</p>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
@@ -37,7 +37,7 @@ const Education = React.forwardRef((props, ref) =>{
                             >
                                 <h3 className="vertical-timeline-element-title">Monta Vista High School</h3>
                                 <h4 className="vertical-timeline-element-subtitle">Cupertino, CA &#183; GPA: 4.0</h4>
-                                <div class="vertical-timeline-element-border"></div>
+                                <div className="vertical-timeline-element-border"></div>
                                 <p>Created tutoring website as web development officer for Interact club (details in <a className="education-interact-link" href="#projects">projects</a>). 
                                     Planned fundraising and awareness events for drug addiction treatment and recovery with Interact's Community Project Committee.
                                     Member of Monta Vista Robotics Team.</p>
