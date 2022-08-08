@@ -3,6 +3,7 @@ import { Scene } from 'react-scrollmagic';
 
 import './Skills.css';
 
+/* Skills list */
 const skills = [
     {
         "name": "HTML/CSS",
