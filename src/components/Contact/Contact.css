@@ -72,7 +72,16 @@
 }
 
 @media only screen and (max-width: 576px) {
+    .contact-content {
+        margin-top: 3rem;
+    }
+    
     .contact-icon {
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+
+    .contact-link {
+        font-size: 1.4rem;
+        margin-top: 0.75rem;
     }
 }

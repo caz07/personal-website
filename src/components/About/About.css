@@ -13,12 +13,13 @@
 
 .about-content {
     display: flex;
+    overflow: hidden;
 }
 
 .about-text {
     padding: 0 3.2rem;
     width: 50%;
-    transform: translateX(15rem);
+    transform: translateX(10rem);
     opacity: 0;
     transition: 750ms;
 }
@@ -131,7 +132,6 @@
 
     .cv-button {
         margin-top: 7.5rem;
-        padding: 1.5rem 2.5rem;
     }
 }
 
@@ -146,8 +146,23 @@
 }
 
 @media only screen and (max-width: 576px) {
+    .about-text {
+        padding: 0;
+    }
+
+    .about-description {
+        font-size: 1.3rem;
+        padding: 1.5rem 0;
+    }
+
     .about-image-container {
-        margin: 1.5rem 3rem;
-        width: 70%;
+        margin: 0 3rem;
+        width: 65%;
+    }
+
+    .cv-button {
+        margin-top: 2.5rem;
+        padding: 0.8rem 1rem;
+        font-size: 1.4rem;
     }
 }

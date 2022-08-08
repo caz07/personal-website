@@ -79,7 +79,24 @@
 
 @media only screen and (max-width: 576px) {
     .skills {
-        width: 95%;
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .skill {
+        padding: 1rem 0;
+    }
+
+    .skill-name {
+        font-size: 1.6rem;
+    }
+
+    .skill-percentage {
+        font-size: 1.3rem;
+    }
+
+    .skill-bar {
+        height: 1.2rem;
     }
 }
 

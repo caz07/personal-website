@@ -128,8 +128,26 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+    .main-section {
+        padding: 3rem 0;
+    }
+    
     .section-container {
-        max-width: 450px;
+        width: 80%;
+    }
+
+    .section-title {
+        font-size: 2.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .section-border {
+        width: 5rem;
+    }
+
+    .lead {
+        font-size: 1.5rem;
+        margin-top: 0.75rem;
     }
 
     .background-pin {
