@@ -1,5 +1,5 @@
 import React from 'react';
-import interactTutors from '../../assets/interact_tutors.png';
+import interactTutors from '../../assets/interact-tutors.png';
 import logo from '../../assets/logo-bg.png';
 import chess from '../../assets/chess.jpg'
 import stocks from '../../assets/stocks.jpg';

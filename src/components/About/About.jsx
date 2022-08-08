@@ -1,6 +1,6 @@
 import React from 'react';
 import portrait from '../../assets/portrait.jpg';
-import resume from '../../assets/charles_zhu_resume.pdf';
+import resume from '../../assets/charles-zhu-resume.pdf';
 import { Scene } from 'react-scrollmagic';
 
 import './About.css';
