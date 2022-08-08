@@ -7,7 +7,8 @@ import terrain from '../../assets/terrain.jpg'
 import { Scene } from 'react-scrollmagic';
 
 import './Projects.css';
-
+ 
+/* Projects list */
 const projects = [
     {
         "href": "https://interacttutors.com",
