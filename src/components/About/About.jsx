@@ -8,11 +8,11 @@ import './About.css';
 const About = React.forwardRef((props, ref) => {
     return (
         <section id="about" ref={ref}>
-            <Scene pin=".about-pin-container" triggerElement="#about" triggerHook="onLeave">
+            <Scene pin="about-pin-container" triggerElement="#about" triggerHook="onLeave">
                 <div className="about-pin-container main-section">
                     <div className="section-container about-container">
                         <div className="about-content">
-                                <Scene classToggle="visible" triggerHook="onEnter" offset={200}>
+                                <Scene classToggle="visible" triggerHook="onEnter" offset={150}>
                                     <div className="about-text">
                                             <div className="about-header">
                                                 <h1 className="section-title">About</h1>
@@ -30,7 +30,7 @@ const About = React.forwardRef((props, ref) => {
                                         
                                     </div>
                                 </Scene>
-                                <Scene classToggle="visible" triggerHook="onEnter" offset={200}>
+                                <Scene classToggle="visible" triggerHook="onEnter" offset={150}>
                                     <div className="about-image-container">
                                         <div className="image-stack"></div>
                                         <div className="image-stack"></div>
