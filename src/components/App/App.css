@@ -41,7 +41,7 @@ body {
 }
 
 .background-pin {
-    background-image: url('../../assets/projects-bg.jpg');
+    background-image: url('../../assets/projects-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
