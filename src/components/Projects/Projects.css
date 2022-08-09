@@ -198,3 +198,11 @@
         line-height: 1.1;
     }
 }
+
+@media (hover: none) {
+    .project:hover,
+    .project:hover .project-image,
+    .project:hover .project-text {
+        transform: none;
+    }
+}
