@@ -111,6 +111,18 @@ body {
     .background-pin {
         background-position: 20%;
     }
+
+    .section-title {
+        font-size: 3.5rem;
+    }
+
+    .section-border {
+        width: 8rem;
+    }
+
+    .lead {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -124,6 +136,18 @@ body {
 
     .background-pin {
         background-position: 28%;
+    }
+
+    .section-title {
+        font-size: 3.25rem;
+    }
+
+    .section-border {
+        width: 7rem;
+    }
+
+    .lead {
+        font-size: 1.75rem;
     }
 }
 
