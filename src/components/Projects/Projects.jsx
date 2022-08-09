@@ -1,6 +1,6 @@
 import React from 'react';
 import interactTutors from '../../assets/interact-tutors.png';
-import logo from '../../assets/logo-bg.png';
+import logo from '../../assets/logo-bg.jpg';
 import chess from '../../assets/chess.jpg'
 import stocks from '../../assets/stocks.jpg';
 import terrain from '../../assets/terrain.jpg'
