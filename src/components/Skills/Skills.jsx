@@ -72,7 +72,7 @@ const Skills = React.forwardRef((props, ref) => {
 
                 <h1 className="section-title">Skills</h1>
                 <div className="section-border"></div>
-                <p className="lead">Languages and frameworks I'm good at.</p>
+                <p className="lead">Languages and frameworks I'm proficient in.</p>
 
                 <ul className="skills">
                     { generateSkills() }
