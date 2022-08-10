@@ -8,7 +8,7 @@ import './About.css';
 const About = React.forwardRef((props, ref) => {
     return (
         <section id="about" ref={ref}>
-            <Scene pin="about-pin-container" triggerElement="#about" triggerHook="onLeave">
+            <Scene pin triggerElement="#about" triggerHook="onLeave">
                 <div className="about-pin-container main-section">
                     <div className="section-container about-container">
                         <div className="about-content">
