@@ -14,8 +14,8 @@ const Masthead = React.forwardRef((props, ref) => {
         'An AI researcher',
         'A UCLA CS freshman',
         'A volunteer tutor',
-        'An ardent pianist',
-        'An avid photographer',
+        'An avid pianist',
+        'An amateur photographer',
     ];
 
     return (
