@@ -17,16 +17,22 @@ const Contact = React.forwardRef((props, ref) => {
                 <p className="lead">Let's get in touch!</p>
                 <ul className="contact-content">
                     <li key="contact-method1" className="contact-method">
-                        <FontAwesomeIcon icon={faEnvelope} className="contact-icon"/>
-                        <a className="contact-link" href="mailto:charles.zhu04@gmail.com">Email</a>
+                        <a className="contact-link" href="mailto:charles.zhu04@gmail.com">
+                            <FontAwesomeIcon icon={faEnvelope} className="contact-icon"/>
+                            <p className="contact-name">Email</p>
+                        </a>
                     </li>
                     <li key="contact-method2" className="contact-method">
-                        <FontAwesomeIcon icon={faLinkedinIn} className="contact-icon"/>
-                        <a className="contact-link" href="https://linkedin.com/in/zhu-charles/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a className="contact-link" href="https://linkedin.com/in/zhu-charles/" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faLinkedinIn} className="contact-icon"/>
+                            <p className="contact-name" >LinkedIn</p>
+                        </a>
                     </li>
                     <li key="contact-method3" className="contact-method">
-                        <FontAwesomeIcon icon={faGithub} className="contact-icon"/>
-                        <a className="contact-link" href="https://github.com/caz07" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a className="contact-link" href="https://github.com/caz07" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGithub} className="contact-icon"/>
+                            <p className="contact-name" href="https://github.com/caz07" target="_blank" rel="noopener noreferrer">GitHub</p>
+                        </a>
                     </li>
                 </ul>
             </div>

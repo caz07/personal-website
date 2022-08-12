@@ -17,24 +17,29 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 .contact-method {
     width: 33%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
 
 .contact-icon {
     font-size: 5rem;
-    filter:drop-shadow(2px 2px 3px black)
+    filter:drop-shadow(2px 2px 3px black);
+    transition: 250ms;
 }
 
-.contact-link {
+.contact-name {
     color: var(--blue);
-    text-decoration: none;
     font-size: 2rem;
     font-weight: 500;
     transition: 250ms;
@@ -42,7 +47,11 @@
     text-shadow: 2px 2px 5px black;
 }
 
-.contact-link:hover {
+.contact-link:hover .contact-icon {
+    color: #bbb;
+}
+
+.contact-link:hover .contact-name {
     color: #0a72c4; /* Slightly darker */
 }
 
