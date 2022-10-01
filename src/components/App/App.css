@@ -89,9 +89,15 @@ body {
 
 
 /* =============== MEDIA QUERIES =============== */
+@media only screen and (max-width: 1400px) {
+    .section-container {
+        max-width: 100rem;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .section-container {
-        max-width: 960px;
+        max-width: 96rem;
     }
 }
 
