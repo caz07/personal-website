@@ -19,11 +19,11 @@ const About = React.forwardRef((props, ref) => {
                                                 <div className="section-border"></div>
                                                 <p className="lead">A bit of my background, hobbies, and interests.</p>
                                             </div>
-                                            <p className="about-description">I'm a computer science freshman at UCLA with experience in web development, artificial intelligence 
+                                            <p className="about-description">I'm a computer science sophomore at UCLA with experience in full-stack web development, artificial intelligence 
                                                 research, and data science. I love seeing the impact that my work has on others and am fueled by the prospect of one day contributing 
                                                 to the "next big thing." 
                                                 <br /><br />
-                                                Outside of work, I enjoy piano, photography, hiking, travel, and an unhealthy amount of gaming.
+                                                Outside of work, I enjoy piano, photography, hiking, travel, and strategy games.
                                                 I'm currently looking for any software development internships or startup opportunities. If you think I'm a good fit, 
                                                 please reach out to <a className="about-link" href="mailto:charles.zhu04@gmail.com">charles.zhu04@gmail.com</a> to connect!
                                             </p>

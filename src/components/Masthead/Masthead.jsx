@@ -12,8 +12,7 @@ const Masthead = React.forwardRef((props, ref) => {
     const categories = [
         'A web developer',
         'An AI researcher',
-        'A UCLA CS freshman',
-        'A volunteer tutor',
+        'A UCLA CS sophomore',
         'An avid pianist',
         'An amateur photographer',
     ];

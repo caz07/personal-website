@@ -10,11 +10,23 @@ const skills = [
         "skillLevel": 90
     },
     {
-        "name": "Javascript",
+        "name": "JavaScript",
+        "skillLevel": 90
+    },
+    {
+        "name": "TypeScript",
         "skillLevel": 90
     },
     {
         "name": "Python",
+        "skillLevel": 90
+    },
+    {
+        "name": "C++",
+        "skillLevel": 90
+    },
+    {
+        "name": "SQL",
         "skillLevel": 90
     },
     {
@@ -30,12 +42,32 @@ const skills = [
         "skillLevel": 70
     },
     {
-        "name": "SQL",
+        "name": "Java",
         "skillLevel": 70
     },
     {
-        "name": "Java",
+        "name": "Assembly",
         "skillLevel": 70
+    },
+    {
+        "name": "Node.js",
+        "skillLevel": 70
+    },
+    {
+        "name": "Docker",
+        "skillLevel": 70
+    },
+    {
+        "name": "Kubernetes",
+        "skillLevel": 70
+    },
+    {
+        "name": "Git",
+        "skillLevel": 70
+    },
+    {
+        "name": "C",
+        "skillLevel": 60
     },
     {
         "name": "Machine Learning",
