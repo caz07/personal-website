@@ -26,7 +26,7 @@ const Education = React.forwardRef((props, ref) =>{
                                 icon={<FontAwesomeIcon icon={faSchool} />}
                             >
                                 <h3 className="vertical-timeline-element-title">University of California, Los Angeles</h3>
-                                <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA &#183; GPA: N/A</h4>
+                                <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA &#183; GPA: 3.94</h4>
                                 <div className="vertical-timeline-element-border"></div>
                                 <p>Majoring in computer science. Officer of ACM Dev Team, member of UPE Honor Society and Association of Chinese Americans.</p>
                             </VerticalTimelineElement>
