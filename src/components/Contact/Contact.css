@@ -1,0 +1,106 @@
+/* =============== CONTACT STYLES =============== */
+#contact {
+    background-image: linear-gradient(#0008, #0008), url('../../assets/contact-bg.jpg');
+    background-size: cover;
+    background-position: center bottom 30%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.contact-method {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.contact-icon {
+    font-size: 5rem;
+    filter:drop-shadow(2px 2px 3px black);
+    transition: 250ms;
+}
+
+.contact-name {
+    color: var(--blue);
+    font-size: 2rem;
+    font-weight: 500;
+    transition: 250ms;
+    margin-top: 1.5rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+.contact-link:hover .contact-icon {
+    color: #bbb;
+}
+
+.contact-link:hover .contact-name {
+    color: #0a72c4; /* Slightly darker */
+}
+
+.scroll-top {
+    font-size: 4.8rem;
+    position: absolute;
+    color: white;
+    transition: 250ms;
+    position: absolute;
+    bottom: 2.5rem;
+    right: 5rem;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.scroll-top:hover {
+    transform: scale(1.1);
+    color: var(--blue);
+    cursor: pointer;
+}
+
+/* =============== MEDIA QUERIES =============== */
+@media only screen and (max-width: 768px) {
+    .contact-icon {
+        font-size: 4.5rem;
+    }
+
+    .scroll-top {
+        font-size: 4rem;
+        right: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .contact-content {
+        margin-top: 3rem;
+    }
+    
+    .contact-icon {
+        font-size: 3rem;
+    }
+
+    .contact-name {
+        font-size: 1.4rem;
+        margin-top: 0.75rem;
+    }
+
+    .scroll-top {
+        font-size: 3rem;
+        bottom: 1.5rem;
+    }
+}

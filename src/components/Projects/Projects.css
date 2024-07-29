@@ -1,0 +1,208 @@
+/* =============== PROJECTS STYLES =============== */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(15rem);
+    transition: 750ms;
+}
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.2rem 0;
+}
+
+.projects li {
+    width: 80%;
+}
+
+.project {
+    background-color: white;
+    border-radius: 1.6rem;
+    width: 100%;
+    height: 14.5rem;
+    margin: 1.6rem 0;
+    box-shadow: 0.15rem 0.15rem 1.5rem black;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    transition: 750ms;
+    animation-fill-mode: none !important;
+    text-decoration: none;
+    opacity: 0;
+    transform: translateY(15rem);
+}
+
+.project::before {
+    content: '';
+    position: absolute;
+    width: 2%;
+    height: 100%;
+    background-color: var(--blue);
+    top: 0;
+    left: 0;
+    transition: 750ms;
+}
+
+.project-image {
+    width: 19rem;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 1.6rem;
+    transition: 750ms;
+}
+
+.project .image-contain {
+    object-fit: contain;
+}
+
+.project-text {
+    flex: 1;
+    margin-left: 2.4rem;
+    padding: 1.6rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    transition: 750ms;
+}
+
+.project-name {
+    font-size: 2.7rem;
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+    transition: 0s;
+}
+
+.project-description {
+    flex: 1;
+    transition: 0s;
+    line-height: 1.2;
+}
+
+.project-skills {
+    color: var(--pink);
+}
+
+.project:hover::before {
+    width: 0;
+    opacity: 50%;
+}
+
+.project:hover {
+    transform: scale(1.01);
+}
+
+.project:hover .project-image {
+    transform: scale(1.1) translateX(-2.4rem);
+}
+
+.project:hover .project-text {
+    transform: translateX(-2.4rem);
+}
+
+.project:hover .project-name, .project:hover .project-description {
+    color: var(--blue);
+}
+
+
+/* =============== ANIMATION =============== */
+.projects .fadeOutLeft {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+
+/* =============== MEDIA QUERIES =============== */
+@media only screen and (max-width: 1200px) {
+    .projects li {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .projects li {
+        width: 100%;
+    }
+
+    .project {
+        height: 16rem;
+    }
+
+    .project-name {
+        font-size: 2.4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        align-items: center;
+        height: 45rem;
+    }
+
+    .project::before {
+        width: 100%;
+        height: 2%;
+    }
+
+    .project-image {
+        margin: 0;
+        width: 100%;
+        height: 50%;
+    }
+
+    .project-text {
+        margin: 0;
+        padding: 2rem 3rem;
+        text-align: center;
+    }
+
+    .project-name {
+        font-size: 2.7rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .project {
+        height: 35rem;
+    }
+
+    .project-image {
+        height: 40%;
+    }
+
+    .project-text {
+        padding: 2rem;
+    }
+    
+    .project-name {
+        font-size: 1.9rem;
+    }
+
+    .project-description, .project-skills {
+        font-size: 1.4rem;
+    }
+
+    .project-skills {
+        line-height: 1.1;
+    }
+}
+
+@media (hover: none) {
+    .project:hover,
+    .project:hover .project-image,
+    .project:hover .project-text {
+        transform: none;
+    }
+}
