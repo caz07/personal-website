@@ -6,7 +6,7 @@ function Footer() {
     return (
         <section id="footer">
             <div className="footer-container">
-                <p>&copy; 2023 Charles Zhu</p>
+                <p>&copy; 2024 Charles Zhu</p>
             </div>
         </section>
     )

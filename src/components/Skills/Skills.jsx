@@ -1,83 +1,8 @@
 import React from 'react';
 import { Scene } from 'react-scrollmagic';
+import skills from './SkillList'
 
 import './Skills.css';
-
-/* Skills list */
-const skills = [
-    {
-        "name": "HTML/CSS",
-        "skillLevel": 90
-    },
-    {
-        "name": "JavaScript",
-        "skillLevel": 90
-    },
-    {
-        "name": "TypeScript",
-        "skillLevel": 90
-    },
-    {
-        "name": "Python",
-        "skillLevel": 90
-    },
-    {
-        "name": "C++",
-        "skillLevel": 90
-    },
-    {
-        "name": "SQL",
-        "skillLevel": 90
-    },
-    {
-        "name": "Bootstrap",
-        "skillLevel": 90
-    },
-    {
-        "name": "React.js",
-        "skillLevel": 70
-    },
-    {
-        "name": "Flask",
-        "skillLevel": 70
-    },
-    {
-        "name": "Java",
-        "skillLevel": 70
-    },
-    {
-        "name": "Assembly",
-        "skillLevel": 70
-    },
-    {
-        "name": "Node.js",
-        "skillLevel": 70
-    },
-    {
-        "name": "Docker",
-        "skillLevel": 70
-    },
-    {
-        "name": "Kubernetes",
-        "skillLevel": 70
-    },
-    {
-        "name": "Git",
-        "skillLevel": 70
-    },
-    {
-        "name": "C",
-        "skillLevel": 60
-    },
-    {
-        "name": "Machine Learning",
-        "skillLevel": 60
-    },
-    {
-        "name": "PyTorch",
-        "skillLevel": 60
-    }
-];
 
 function generateSkills() {
     const numSkills = skills.length;

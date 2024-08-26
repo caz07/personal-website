@@ -19,19 +19,7 @@ body {
     overflow-x: hidden;
 }
 
-#tsparticles {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-}
-
-
 /* =============== APP STYLES ===============*/
-#tsparticles canvas {
-    background: radial-gradient(ellipse at top, var(--navy) 0%,  #030303 100%) !important;
-}
-
 .background-pin-container {
     position: relative;
 }
@@ -89,15 +77,9 @@ body {
 
 
 /* =============== MEDIA QUERIES =============== */
-@media only screen and (max-width: 1400px) {
-    .section-container {
-        max-width: 100rem;
-    }
-}
-
 @media only screen and (max-width: 1200px) {
     .section-container {
-        max-width: 96rem;
+        max-width: 100rem;
     }
 }
 
@@ -107,7 +89,7 @@ body {
     }
 
     .section-container {
-        max-width: 720px;
+        max-width: 770px;
     }
 
     .background-pin {
@@ -133,7 +115,7 @@ body {
     }
 
     .section-container {
-        max-width: 540px;
+        max-width: 570px;
     }
 
     .background-pin {

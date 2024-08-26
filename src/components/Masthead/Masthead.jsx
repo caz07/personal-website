@@ -10,11 +10,12 @@ import './Masthead.css';
 
 const Masthead = React.forwardRef((props, ref) => {
     const categories = [
-        'A web developer',
-        'An AI researcher',
-        'A UCLA CS sophomore',
-        'An avid pianist',
-        'An amateur photographer',
+        'A UCLA junior',
+        'A software engineer',
+        'A dancer',
+        'An artist',
+        'A pianist',
+        'and more!',
     ];
 
     return (

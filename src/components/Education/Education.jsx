@@ -26,9 +26,10 @@ const Education = React.forwardRef((props, ref) =>{
                                 icon={<FontAwesomeIcon icon={faSchool} />}
                             >
                                 <h3 className="vertical-timeline-element-title">University of California, Los Angeles</h3>
-                                <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA &#183; GPA: 3.94</h4>
+                                <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA &#183; GPA: 3.86</h4>
                                 <div className="vertical-timeline-element-border"></div>
-                                <p>Majoring in computer science. Officer of ACM Dev Team, member of UPE Honor Society and Association of Chinese Americans.</p>
+                                <p>Majoring in computer science. <br /><br />
+                                ACM Dev Team Officer, Foundations Choreography Events Chair, UCLA SwabSeq Lab Researcher; member of UPE Honor Society and Association of Chinese Americans.</p>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
                                 className="vertical-timeline-element--work"
@@ -39,8 +40,8 @@ const Education = React.forwardRef((props, ref) =>{
                                 <h4 className="vertical-timeline-element-subtitle">Cupertino, CA &#183; GPA: 4.0</h4>
                                 <div className="vertical-timeline-element-border"></div>
                                 <p>Created tutoring website as web development officer for Interact club (details in <a className="education-interact-link" href="#projects">projects</a>). 
-                                    Planned fundraising and awareness events for drug addiction treatment and recovery with Interact's Community Project Committee.
-                                    Member of Monta Vista Robotics Team.</p>
+                                    Planned fundraising events for drug addiction treatment and recovery with Interact's Community Project Committee.
+                                    Member of Monta Vista Robotics Team (MVRT).</p>
                             </VerticalTimelineElement>
                         </VerticalTimeline>
                     </div>

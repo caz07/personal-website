@@ -1,0 +1,10 @@
+#tsparticles {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#tsparticles canvas {
+    background: radial-gradient(ellipse at top, var(--navy) 0%,  #030303 100%) !important;
+}

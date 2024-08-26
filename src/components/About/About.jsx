@@ -17,14 +17,14 @@ const About = React.forwardRef((props, ref) => {
                                             <div className="about-header">
                                                 <h1 className="section-title">About</h1>
                                                 <div className="section-border"></div>
-                                                <p className="lead">A bit of my background, hobbies, and interests.</p>
+                                                <p className="lead">A bit of my background, hobbies, and interests!</p>
                                             </div>
-                                            <p className="about-description">I'm a computer science sophomore at UCLA with experience in full-stack web development, artificial intelligence 
-                                                research, and data science. I love seeing the impact that my work has on others and am fueled by the prospect of one day contributing 
-                                                to the "next big thing." 
+                                            <p className="about-description">I'm a junior at UCLA studying computer science with experience primarily in full-stack web development, bioinformatics
+                                                research, and data science. However, I love exploring new challenges am excited to contribute to any projects I can learn from that are
+                                                both ambitious and impactful. 
                                                 <br /><br />
-                                                Outside of work, I enjoy piano, photography, hiking, travel, and strategy games.
-                                                I'm currently looking for any software development internships or startup opportunities. If you think I'm a good fit, 
+                                                Outside of work, I enjoy dancing (street dance), gymnastics, piano, art, hiking, travel, and puzzle/strategy games.
+                                                I'm currently looking for summer 2025 software engineering internships or startup opportunities. If you'd like to contact me, 
                                                 please reach out to <a className="about-link" href="mailto:charles.zhu04@gmail.com">charles.zhu04@gmail.com</a> to connect!
                                             </p>
                                         
