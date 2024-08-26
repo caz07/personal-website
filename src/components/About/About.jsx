@@ -20,7 +20,7 @@ const About = React.forwardRef((props, ref) => {
                                                 <p className="lead">A bit of my background, hobbies, and interests!</p>
                                             </div>
                                             <p className="about-description">I'm a junior at UCLA studying computer science with experience primarily in full-stack web development, bioinformatics
-                                                research, and data science. However, I love exploring new challenges am excited to contribute to any projects I can learn from that are
+                                                research, and data science. I love exploring new challenges am excited to contribute to any projects I can learn from that are
                                                 both ambitious and impactful. 
                                                 <br /><br />
                                                 Outside of work, I enjoy dancing (street dance), gymnastics, piano, art, hiking, travel, and puzzle/strategy games.
