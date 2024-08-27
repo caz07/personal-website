@@ -41,7 +41,7 @@ function generateExperiences(experienceType = "workExperience") {
 
 const Projects = React.forwardRef((props, ref) => {
     return (
-        <section id="experiences" className="main-section" ref={ref}>
+        <section id="experience" className="main-section" ref={ref}>
             <div className="section-container experiences-container">
 
                 <div className="experiences-inner work-experience">

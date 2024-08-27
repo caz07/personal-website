@@ -15,9 +15,9 @@ const sections = [
         "displayName": "About"
     },
     {
-        "id": "projects",
-        "name": "projects",
-        "displayName": "Projects"
+        "id": "experience",
+        "name": "experience",
+        "displayName": "Experience"
     },
     {
         "id": "skills",
@@ -59,7 +59,7 @@ function generateNavItems(inViews, entries) {
                     <div className="nav-label">{section.displayName}</div>
                 </a>
             </li>
-        ))
+    ))
 }
 
 function Navbar(props) {
