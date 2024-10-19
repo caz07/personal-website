@@ -29,7 +29,7 @@ const Education = React.forwardRef((props, ref) =>{
                                 <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA &#183; GPA: 3.86</h4>
                                 <div className="vertical-timeline-element-border"></div>
                                 <p>Majoring in computer science. <br /><br />
-                                ACM Dev Team Officer, Foundations Choreography Events Chair, UCLA SwabSeq Lab Researcher; member of UPE Honor Society and Association of Chinese Americans.</p>
+                                ACM Dev Team Officer, Foundations Choreography Events Chair, UCLA SwabSeq Lab Researcher; member of UPE Honor Society, Projected Dance, and Association of Chinese Americans.</p>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
                                 className="vertical-timeline-element--work"
