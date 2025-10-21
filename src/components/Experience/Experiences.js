@@ -1,3 +1,4 @@
+import meta from '../../assets/meta.png'
 import microsoft from '../../assets/microsoft.png'
 import swabseq from '../../assets/swabseq.png'
 import nei from '../../assets/nei.png'
@@ -13,15 +14,26 @@ import terrain from '../../assets/terrain.jpg'
 /* Work experience list */
 const workExperience = [
     {
+        "href": "https://www.meta.com/",
+        "src": meta,
+        "alt": "Meta logo",
+        "imageContain": true,
+        "name": "Meta",
+        "description": "Integrated and monitored several AI Agent features into Facebook Ads for business monetization.",
+        "skills": ["PHP", "GraphQL", "React", "Python", "SQL", "Swift", "Kotlin"],
+        "startDate": "June 2025",
+        "endDate": "September 2025"
+    },
+    {
         "href": "https://www.microsoft.com/",
         "src": microsoft,
         "alt": "Microsoft logo",
         "imageContain": false,
         "name": "Microsoft (via Centific)",
-        "description": "Working on Microsoft eDiscovery and taught students in Centific Summer Discovery Program.",
+        "description": "Worked on Microsoft eDiscovery and taught students in Centific Summer Discovery Program.",
         "skills": ["JavaScript", "HTML/CSS"],
         "startDate": "June 2024",
-        "endDate": "Present"
+        "endDate": "September 2024"
     },
     {
         "href": "https://swabseq.compmed.ucla.edu/",
@@ -32,7 +44,7 @@ const workExperience = [
         "description": "Conducting bioinformatics research for SwabSeq 2.0, an improved version of the COVID tests distributed throughout UCLA.",
         "skills": ["Python", "Rust"],
         "startDate": "February 2024",
-        "endDate": "Present"
+        "endDate": "September 2024"
     },
     {
         "href": "https://ne.institute/",
@@ -54,7 +66,7 @@ const workExperience = [
         "description": "Working on multiple projects such as ACM Membership Portal, Dev Pathways (AI-generated CS learning modules), and template for ACM committee websites.",
         "skills": ["TypeScript", "React", "Next.js", "Node.js", "MongoDB"],
         "startDate": "November 2022",
-        "endDate": "Present"
+        "endDate": "June 2025"
     }
 ]
 

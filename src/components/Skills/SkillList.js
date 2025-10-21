@@ -17,6 +17,14 @@ const skills = [
         "skillLevel": 90
     },
     {
+        "name": "PHP",
+        "skillLevel": 90
+    },
+    {
+        "name": "GraphQL",
+        "skillLevel": 90
+    },
+    {
         "name": "HTML/CSS",
         "skillLevel": 90
     },
@@ -55,6 +63,14 @@ const skills = [
     {
         "name": "MongoDB",
         "skillLevel": 90
+    },
+    {
+        "name": "Swift",
+        "skillLevel": 70
+    },
+    {
+        "name": "Kotlin",
+        "skillLevel": 70
     },
     {
         "name": "Firebase",
